@@ -13,7 +13,25 @@ const game = () => {
 
         });
     };
+        //play match
+    const playMatch = () => {
+        const options = document.querySelectorAll('.options button');
+        const playerHand = document.querySelector('.player-hand');
+        const computerHand = document.querySelector('.computer-hand');
+        //Computer options
+        const computerOptions = ['rock', 'paper', 'scissors'];
+
+        options.forEach(options => {
+            options.addEventListener('click', function() {
+                //Computer choice
+                const computerNumber = Math.floor(Math.random() * 3);
+                const computerChoice = computerOptions[computerNumber]
+            });
+        });
+    };
+
     startGame();
+    playMatch(); 
 };
 
 //Start the game function
