@@ -74,3 +74,17 @@ section {
     justify-content: space-around;
     align-items: center;
 }
+
+.computer-hand {
+    transform: rotateY(180deg);
+}
+
+div.fadeout {
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+}
