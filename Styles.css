@@ -19,7 +19,7 @@ section {
 }
 
 .score h2 {
-    font-size: 30px
+    font-size: 30px;
 }
 
 .score p {
@@ -52,6 +52,7 @@ section {
     font-size: 20px;
     background: rgb(45, 117, 96);
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .match {
@@ -79,7 +80,7 @@ section {
     transform: rotateY(180deg);
 }
 
-div.fadeout {
+div.fadeOut {
     opacity: 0;
     pointer-events: none;
 }
