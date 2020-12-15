@@ -32,7 +32,13 @@ const game = () => {
             options.addEventListener('click', function() {
                 //Computer choice
                 const computerNumber = Math.floor(Math.random() * 3);
-                const computerChoice = computerOptions[computerNumber]
+                const computerChoice = computerOptions[computerNumber];
+                
+                //Here is where we call compare hands
+
+                //update images
+                playerHand.src = `./images/${this.textContent}.jpeg`;
+                computerHand.src = `./images/${computerChoice}.jpeg`;
             });
         });
     };
