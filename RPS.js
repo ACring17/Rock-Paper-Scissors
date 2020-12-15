@@ -36,6 +36,46 @@ const game = () => {
             });
         });
     };
+    
+    const compareHands = (playerChoice, computerChoice) => {
+        //update text
+        const winner = document.querySelector('.winner');
+        //checking for a tie
+        if (playerChoice === computerChoice) {
+            winner.textContent = 'It is a tie';
+            return;
+        }
+        //check for rock
+        if (playerChoice === 'rock') {
+            if (computerChoice === 'scissors') {
+                winner.textContent = "Player Wins"
+                return;
+            } else {
+                winner.textContent = 'Computer Wins';
+                return;
+            }
+        }
+        //check for paper
+        if (playerChoice === 'paper') {
+            if (computerChoice === 'scissors') {
+                winner.textContent = "Computer Wins"
+                return;
+            } else {
+                winner.textContent = 'Player Wins';
+                return;
+            }
+        }
+        //check for Scissors
+        if (playerChoice === 'scissors') {
+            if (computerChoice === 'rock') {
+                winner.textContent = "Computer Wins"
+                return;
+            } else {
+                winner.textContent = 'Player Wins';
+                return;
+            }
+        }
+    }
 
     startGame();
     playMatch(); 
