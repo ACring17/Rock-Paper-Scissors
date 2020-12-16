@@ -46,7 +46,8 @@ section {
 .match button {
     width: 150px;
     height: 50px;
-    margin: 10px;
+    margin: 20px;
+    margin-top: 80px;
     background: none;
     border: none;
     color: white;
