@@ -35,7 +35,7 @@ const game = () => {
                 const computerChoice = computerOptions[computerNumber];
                 
                 //Here is where we call compare hands
-
+                compareHands(this.textContent, computerChoice);
                 //update images
                 playerHand.src = `./images/${this.textContent}.jpeg`;
                 computerHand.src = `./images/${computerChoice}.jpeg`;
@@ -54,7 +54,7 @@ const game = () => {
         //check for rock
         if (playerChoice === 'rock') {
             if (computerChoice === 'scissors') {
-                winner.textContent = "Player Wins"
+                winner.textContent = "Player Wins";
                 return;
             } else {
                 winner.textContent = 'Computer Wins';
@@ -64,7 +64,7 @@ const game = () => {
         //check for paper
         if (playerChoice === 'paper') {
             if (computerChoice === 'scissors') {
-                winner.textContent = "Computer Wins"
+                winner.textContent = "Computer Wins";
                 return;
             } else {
                 winner.textContent = 'Player Wins';
@@ -74,7 +74,7 @@ const game = () => {
         //check for Scissors
         if (playerChoice === 'scissors') {
             if (computerChoice === 'rock') {
-                winner.textContent = "Computer Wins"
+                winner.textContent = "Computer Wins";
                 return;
             } else {
                 winner.textContent = 'Player Wins';
