@@ -42,7 +42,7 @@ const game = () => {
                     computerHand.src = `./images/${computerChoice}.jpeg`;
                 }, 2000);
                 //Animation
-                playerHand.style.animation = "shakePlayer 2s 2ase";
+                playerHand.style.animation = "shakePlayer 2s ease";
                 computerHand.style.animation = "shakeComputer 2s ease";
             });
         });
