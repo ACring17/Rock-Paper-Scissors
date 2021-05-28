@@ -93,7 +93,7 @@ div.fadeIn {
     pointer-events: all;
 }
 
-@keyframes shakeCompter {
+@keyframes shakeComputer {
     0% {
         transform: rotateY(180deg) translateY(0px);
     }
