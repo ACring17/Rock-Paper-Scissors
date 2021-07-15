@@ -1,7 +1,7 @@
 # Rock-Paper-Scissors
 A game where you play rock, paper, scissors against a computer.
-I will be using HTML, CSS, and JavaScript to play against a computer. 
-Will have a score counter and have some features to make it for the user.
-Simple game to help me learn and apply JS.
+I used HTML, CSS, and JavaScript to make this website.
+The game keeps track of how many wins you get.
+This game was a great way for me to learn how to use the Math.random function, CSS manipulation and a fun way to learn JavaScript.
 
 Click this link to view and play the game: https://acring17.github.io/Rock-Paper-Scissors/
