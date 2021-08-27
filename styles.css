@@ -93,6 +93,8 @@ div.fadeIn {
     pointer-events: all;
 }
 
+/* Animation for computer hand */
+
 @keyframes shakeComputer {
     0% {
         transform: rotateY(180deg) translateY(0px);
@@ -122,6 +124,8 @@ div.fadeIn {
         transform: rotateY(180deg) translateY(0px);
     }
 }
+
+/* Animation for player hand */
 
 @keyframes shakePlayer {
     0% {
