@@ -87,6 +87,8 @@ section {
     transform: rotateY(180deg);
 }
 
+/* Transition classes*/
+
 div.fadeOut {
     opacity: 0;
     pointer-events: none;
