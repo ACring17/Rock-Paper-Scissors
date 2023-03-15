@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors
-A game where you play rock, paper, scissors against a computer.
-The game keeps track of how many wins you get against the computer.
+The classic game of rock, paper, scissors played against a computer that will randomly select an option.
+The game will keep track of how many wins and loses you get against the computer.
 This game was a great way for me to learn how to use the Math.random function, CSS manipulation and a fun way to learn JavaScript.
 
 Click this link to view and play the game: https://acring17.github.io/Rock-Paper-Scissors/
